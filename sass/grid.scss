@@ -1,0 +1,172 @@
+/*
+  Name: Super Simple SASS Grid
+  Author: Ross Cooper http://www.ross-cooper.co.uk
+  Version: 1.0
+  Github: https://github.com/rossjcooper/Super-Simple-SASS-Grid
+
+  Copyright (c)2016 Ross Cooper
+  Permission is hereby granted, free of charge, to any person obtaining a copy of
+  this software and associated documentation files (the "Software"), to deal in the
+  Software without restriction, including without limitation the rights to use, copy,
+  modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
+  and to permit persons to whom the Software is furnished to do so, subject to the
+  following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+  INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+  PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+  FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+  ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  
+*/
+.row {
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+}
+
+.container {
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.inline{
+    float: left;
+    padding: 5px;
+}
+
+.full-width {
+    @extend .inline;
+    width: 100%;
+}
+
+.half {
+    @extend .inline;
+    width: 50%;
+}
+
+.quarter {
+    @extend .inline;
+    width: 25%;
+}
+
+.three-quarter {
+    @extend .inline;
+    width: 75%;
+}
+
+.third {
+    @extend .inline;
+    width: 33.33%;
+}
+
+.two-third {
+    @extend .inline;
+    width: 66.66%;
+}
+
+.fifth {
+    @extend .inline;
+    width: 20%;
+}
+.two-fifth {
+    @extend .inline;
+    width: 40%;
+}
+.three-fifth {
+    @extend .inline;
+    width: 60%;
+}
+.four-fifth {
+    @extend .inline;
+    width: 80%;
+}
+
+.eighth{
+    @extend .inline;
+    width: 12.5%;
+}
+
+.three-eighth{
+    @extend .inline;
+    width: 37.5%;
+}
+
+.five-eighth{
+    @extend .inline;
+    width: 62.5%;
+}
+.seven-eighth{
+    @extend .inline;
+    width: 87.5%;
+}
+
+.sixth{
+    @extend .inline;
+    width: 16.66%;
+}
+
+.three-sixth{
+    @extend .inline;
+    width: 83.3%;
+}
+
+@media all and (max-width: 768px){
+    .half {
+        width: 50%;
+    }
+    .quarter {
+        width: 50%; }
+
+    .three-quarter {
+        width: 100%;
+    }
+    .third {
+        width: 50%;}
+
+    .two-third {
+        width: 100%;}
+
+    .fifth {
+        width: 50%;
+    }
+    .two-fifth {
+        width: 50%;
+    }
+    .three-fifth {
+        width: 100%;
+    }
+    .four-fifth {
+        width: 100%;
+    }
+    .eighth {
+        width: 50%;
+    }
+    .three-eighth{
+        width: 100%;
+    }
+    .five-eighth{
+        width: 100%;
+    }
+    .seven-eighth{
+        width: 100%;
+    }
+    .sixth{
+        width: 50%;
+    }
+    .three-sixth{
+        width:100%;
+    }
+}
+@media all and (max-width: 375px){
+    .inline {
+        width: 100%;
+    }
+    .button{
+        width: 100%;
+    }
+}
