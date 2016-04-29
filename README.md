@@ -26,7 +26,7 @@ v1.0.0 Released here on GitHub for all to use.
 
 ## Credits
 
-Thanks to Luke Holloway for giving me advise refining the grid.
+Thanks to Luke Holloway for his tips and suggestions.
 
 ## License
 
